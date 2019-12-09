@@ -1,0 +1,113 @@
+#about-1section {
+	height: 500px;
+	background:url("../img/aboutus.jpg");
+	background-size: 160%;
+	background-position: 30% 53%;
+	padding-top:60px;
+}
+
+#aboutus {
+	border: 2px solid grey;
+	color: #F5F5FF;
+	font-size: 40px;
+	word-wrap: break-word;
+	width: 500px;
+	border-radius: 25px;
+	padding: 25px;
+	margin-left: 200px;
+	text-align: center;
+	text-shadow: 5px 3px 5px black;
+	box-shadow: 7px 7px 10px #09090A, -7px -7px 10px #09090A;
+	font-family: serif;
+}
+
+#about-1section span {
+	display: block;
+	font-size: 50px;
+	padding-bottom: 7px;
+	color: #313131;
+	font-weight: bold;
+	text-shadow: 1px 1px 3px grey;
+}
+
+#login-form {
+	display: inline-block;
+}
+
+iframe {
+	width: 580px;
+	height: 335px;
+	background-color: #B8B8B9;
+	border-radius: 10px;
+	padding: 25px;
+	margin: 20px 45px 15px 15px;
+	border: none;
+}
+
+#about-2section {
+	height: 430px;
+	background: #EDEDEE;
+}
+
+#login-form {
+	background-color:#B8B8B9;
+	text-align: left; 
+	font-size: 30px;
+	width: 270px;
+	border-radius: 10px;
+	vertical-align: top;
+	margin: 100px 0px 0px 10px;
+	padding: 20px 0px 20px 30px;
+	font-family: sans-serif;
+	color: #323233;
+}
+
+.login-input {
+	height: 15px;
+	border-radius: 10px;
+	padding: 9px;
+	margin: 5px 5px 5px 0px;
+	width: 220px;
+	border: none;
+	box-shadow: 2px 2px 3px grey, -1px -1px 3px grey;
+	font-size: 17px;
+}
+
+.login-input:focus {
+	outline: 0;
+}
+
+#registration {
+	font-size: 20px;
+	color: white;
+	background-color: #21186E;
+	border: 1px solid #21186E;
+	border-radius: 10px;
+	cursor: pointer;
+	padding: 2px 7px 1px 7px;
+	font-weight: bold;
+	transition: background-color 0.3s;
+}
+
+#login {
+	font-size: 20px;
+	color: white;
+	background-color: #E9086B;
+	border: 1px solid #E9086B;
+	padding: 2px 7px 1px 7px;
+	border-radius: 10px;
+	cursor: pointer;
+	font-weight: bold;
+	margin-left: 20px;
+	transition: background-color 0.3s;
+}
+
+#registration:hover {
+	color: #21186E;
+	background: #B8B8B9;
+}
+
+#login:hover {
+	color: #E9086B;
+	background: #B8B8B9;
+}

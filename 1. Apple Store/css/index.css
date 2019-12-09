@@ -1,0 +1,244 @@
+body {
+	margin:0;
+	padding:0;
+}
+
+header {
+	margin: 45px 0px 0px 0px;
+	padding: 0;
+	height: 400px;
+	background-image: url("../img/header.jpg");
+	background-position: 50% 44%;
+	text-align: center;
+	color: white;
+	text-shadow: 4px 3px 6px black;
+}
+
+#title {
+	margin:0;
+	font-size: 75px;
+}
+
+#search {
+	float: right;
+	margin-right: 50px;
+	margin-top: 6px;
+	background-color: #F6F6F6;
+	border-radius: 15px;
+	padding: 3px 10px 4px 10px;
+}
+
+#search-input {
+	width: 200px;
+	height: 20px;
+	background:none;
+	border:none;
+	font-size: 17px;
+	font-weight: bold;
+	font-family: serif;
+}
+
+#search-input:focus {
+	outline: 0;
+}
+#b-search {
+	background:none;
+	border:none;
+	margin-bottom: 0;
+}
+
+#b-search:hover {
+	background-color: #808080;
+	border-radius: 5px;
+}
+
+#b-search img {
+	width: 18px;
+	height: 18px;
+}
+
+main {
+	text-align: center;
+	padding-top: 15px;
+}
+
+#first-section {
+	color: #1D1D1F;
+	font-size: 35px;
+	font-weight: bold;
+	margin-bottom: 10px;
+}
+
+#first-section h1 {
+	font-size: 70px;
+	margin-top: 0;
+}
+
+.first-sdiv {
+	display: inline-block;
+	width: 25%;
+	text-align: center;
+	font-size: 25px;
+	font-family: monospace;
+}
+
+.section-abutton {
+	text-decoration: none;
+	color: white;
+	background-color: #E9086B;
+	border: 1px solid #E9086B;
+	border-radius: 15px;
+	padding-bottom: 2px; 
+	padding-left: 9px;
+	padding-right: 9px;
+	transition: background-color 0.4s;
+}
+
+.section-abutton:hover {
+	background-color: white;
+	color: #E9086B;
+}
+
+#iphone-section {
+	background-image: url("../img/img1.jpg");
+	background-position: 50% 35%;
+	height: 500px;
+	font-size: 60px;
+	color: white;
+	text-shadow: 3px 2px 3px black;
+	padding-top: 28px;
+}
+
+#iphone-section a {
+	font-size: 30px;
+	border: 1px solid white;
+	border-radius: 20px;
+	padding: 0px 8px 1px 8px;
+	color: white;
+	text-decoration: none;
+	margin-left: 300px;
+	transition: background-color 0.4s;
+}
+
+#ipad-section {
+	background-image: url("../img/img2.jpg");
+	background-position: 50% 52%;
+	height: 500px;
+	font-size: 55px;
+	color: white;
+	text-shadow: 3px 2px 3px black;
+	padding-top: 28px;
+}
+
+#ipad-section a {
+	font-size: 30px;
+	border: 1px solid white;
+	border-radius: 20px;
+	padding: 0px 8px 1px 8px;
+	color: white;
+	text-decoration: none;
+	margin-left: 300px;
+	transition: background-color 0.4s;
+}
+
+#macbook-section {
+	background-image: url("../img/img3.jpg");
+	background-position: 50% 52%;
+	height: 500px;
+	font-size: 55px;
+	color: white;
+	text-shadow: 3px 2px 3px black;
+	padding-top: 28px;
+}
+
+#macbook-section a {
+	font-size: 30px;
+	border: 1px solid white;
+	border-radius: 20px;
+	padding: 0px 8px 1px 8px;
+	color: white;
+	text-decoration: none;
+	margin-left: 300px;
+	transition: background-color 0.4s;
+}
+
+#applewatch-section {
+	background-image: url("../img/img4.jpg");
+	background-position: 50% 52%;
+	height: 500px;
+	font-size: 50px;
+	color: white;
+	text-shadow: 3px 2px 3px black;
+	padding-top: 28px;
+}
+
+#applewatch-section a {
+	font-size: 30px;
+	border: 1px solid white;
+	border-radius: 20px;
+	padding: 0px 8px 1px 8px;
+	color: white;
+	text-decoration: none;
+	margin-left: 300px;
+	transition: background-color 0.4s;
+}
+
+#iphone-section a:hover, #ipad-section a:hover, #macbook-section a:hover, #applewatch-section a:hover {
+	background-color: white;
+	color: #1D1D1F;
+	text-shadow: none;
+}
+
+.section2 img {
+	width: 440px;
+	padding: 30px 5px 30px 5px;
+	transition: transform 1s;
+}
+
+.section2 img:hover {
+	transform: scale(1.1, 1.1);
+}
+
+.section2 iframe {
+	padding: 0px 0px 80px 25px;
+}
+
+.section2 div {
+	display: inline-block;
+	width: 600px;
+	font-size: 35px;
+	color: #1D1D1F;
+	font-weight: 550;
+}
+
+footer {
+	background-color: #B8B8B9;
+	height: 200px;
+	text-align: center;
+	font-size: 35px;
+	padding-top: 45px;
+}
+
+.footer-div {
+	display: inline-block;
+	width: 20%;
+	font-weight: bold;
+	color: #121214;
+	text-shadow: 2px 1px 2px grey;
+	padding: 7px;
+}
+
+.footer-div img {
+	width: 46px;
+	display: inline-block;
+	padding-left: 5px;
+	padding-right: 5px;
+}
+
+.footer-a {
+	font-size: 17px;
+	color: #121214;
+	padding-top: 0;
+	padding-bottom: 0;
+}
+
