@@ -1,0 +1,39 @@
+nav {
+	background-color: #323233;	
+	border: 1px solid #323233;
+	height: 45px;
+	position: fixed;
+	width: 100%;
+	top:0;
+	opacity: 0.98;
+}
+
+#menu {
+	list-style: none;
+	margin-top:11px;
+	width: 55%;
+	display: inline-block;
+}
+
+#menu li {
+	display: inline-block;
+	margin-left: 20px;
+	margin-right: 20px;
+	font-size: 20px;
+}
+
+#menu li a {
+	text-decoration: none;
+	color: white;
+	padding-top: 12px;
+	padding-bottom: 13px;
+	padding-left: 15px;
+	padding-right: 15px;
+	transition: background-color 0.3s;
+	border-radius: 8px;	
+}
+
+#menu li a:hover {
+	background-color: #59595A;
+	color: white;
+}

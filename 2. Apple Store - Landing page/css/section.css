@@ -1,0 +1,96 @@
+iframe {
+	width: 580px;
+	height: 335px;
+	border: none;
+}
+
+.section {
+	border-radius: 8px;
+	background-color: #EDEDED;
+	margin: 0px 10px 10px 10px;
+	text-align: left;
+	padding: 0;
+}
+
+.first-img {
+	width: 380px;
+	transition: transform 1s;
+}
+
+.first-img:hover {
+	transform: scale(1.2, 1.2);
+}
+
+.second-img {
+	width: 180px;
+	padding: 0;
+	display: block;
+	transition: transform 1s;
+}
+
+.second-img:hover {
+	transform: scale(2, 2);
+}
+
+.second-img-div {
+	display: inline-block;
+}
+
+.section div {
+	display: inline-block;
+}
+
+.images {
+	width: 37%;
+}
+
+.info {
+	width: 49%;
+	white-space: pre;
+	font-size: 20px;
+	font-family: monospace, sans-serif;
+	color: #323233;
+}
+
+.buy {
+	width: 13%;
+	text-align: center;
+	font-size: 40px;
+	font-weight: bold;
+}
+
+.buy-button {
+	width: 120px;
+	height: 30px;
+	margin-bottom: 15px;
+	font-size: 20px;
+	font-weight: bold;
+	font-family: monospace;
+	border-radius: 15px;
+	background-color: #e10063;
+	border:1px solid #e10063;
+	color: white;
+	cursor: pointer;
+	transition: background-color 0.4s;
+}
+
+.buy-button:hover {
+	background-color: #EDEDED;
+	color: #e10063;
+}
+
+.stock {
+	font-size: 25px;
+	font-weight: 600;
+	color: #e10063;
+}
+
+.section-h1 {
+	padding: 10px 0px 0px 25px;
+	font-size: 33px;
+	color: #323233;
+}
+
+hr {
+	color: #323233;
+}
